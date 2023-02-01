@@ -58,7 +58,7 @@ export const postsSlice = createSlice({
       .addCase(addNewPost.rejected, (state, action) => {
         state.status = 'failed';
         console.log('addNewpost rejected error :>> ', action.error);
-        state.error = action.error.messsage
+        state.error = action.error.message
       });
   },
 });
