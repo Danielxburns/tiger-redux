@@ -17,11 +17,12 @@ Database: MongoDB
 4 - Users can review and give stars to other blogs
 5 - Users can reply to other blogs
 
-## about
+## Installation
 
-Thunks, feature folder architecture, duck file
-
-## Status - incomplete
+- npm install
+- sudo service mongod start
+- npm run start
+- in browser go to localhost:3000
 
 ## Issues
 
@@ -31,7 +32,6 @@ Thunks, feature folder architecture, duck file
 - clicking category buttons just logs the button name to the console
 
 ## Roadmap
-
 
 - add redux-logger
 - debug server and DB functions
