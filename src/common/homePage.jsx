@@ -5,7 +5,7 @@ import { fetchAllPosts } from '../features/posts/postsSlice';
 
 import Feed from '../features/posts/feed';
 import Categories from '../features/categories/categories';
-import homeImage from '../common/assets/images/Tiger_with_laptop.png';
+import homeImage from '../assets/images/Tiger_with_laptop.png';
 
 import '../App.css';
 

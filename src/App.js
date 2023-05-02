@@ -1,9 +1,9 @@
 import React from 'react';
-import NavBar from './navBar';
-import HomePage from './homePage';
-import UserPage from '../features/users/userPage';
-import SignUp from '../features/users/sign-up';
-import SignIn from '../features/users/sign-in';
+import NavBar from './common/navBar';
+import HomePage from './common/homePage';
+import UserPage from './features/users/userPage';
+import SignUp from './features/users/sign-up';
+import SignIn from './features/users/sign-in';
 
 import { Routes, Route } from 'react-router-dom';
 

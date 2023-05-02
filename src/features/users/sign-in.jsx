@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { selectAllUsers, signInUser } from './usersSlice';
 import { Link, useNavigate } from 'react-router-dom';
 
-
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
@@ -29,7 +28,7 @@ const SignIn = () => {
     setSignInFormFields({ ...signInFormFields, [name]: value });
   };
 
-/*   const UserLogin = (email, password) => {
+  /*   const UserLogin = (email, password) => {
     axios
       .post(API_ENDPOINT + '/api/users/login', {
         email: email,
@@ -49,13 +48,15 @@ const SignIn = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const user = allUsers.find((user) => user.email === email && user.password === password);
+    const user = allUsers.find(
+      (user) => user.email === email && user.password === password
+    );
     if (!user) {
       alert('User not found. Check email and password');
       return;
     }
     try {
-      await dispatch(signInUser(user._id))
+      await dispatch(signInUser(user._id));
       navigate('/');
     } catch (error) {
       console.log(error);

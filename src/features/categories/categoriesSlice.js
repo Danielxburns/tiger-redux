@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { TEST_POSTS } from '../../common/assets/test-posts';
+import { TEST_POSTS } from '../../assets/test-posts';
 
 const initialState = {
   category: 'all',
