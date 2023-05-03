@@ -17,6 +17,10 @@ Database: MongoDB
 4 - Users can review and give stars to other blogs
 5 - Users can reply to other blogs
 
+# Wireframe
+
+![Figma-tiger_blogs resized](https://user-images.githubusercontent.com/41316262/236028423-e34406b6-cdda-48b6-b67e-5f731007786f.png)
+
 ## Installation
 
 - npm install
@@ -38,4 +42,5 @@ Database: MongoDB
 - use React-Bootstrap
 - use styled components
 - design web view wireframe
-- hey! maybe rewrite your code so it won't jam up your front end with functons like "getAllUsers" and even worse "getAllPosts" when taking it to scale.
+- implement responsive styling
+- hey! maybe even rewrite your code so when taking it to scale it won't jam up your front end with functons like "getAllUsers" and "getAllPosts".
