@@ -38,4 +38,4 @@ Database: MongoDB
 - use React-Bootstrap
 - use styled components
 - design web view wireframe
-- hey! maybe don't jam up your front end with functons like "getAllUsers" and even worse "getAllPosts".
+- hey! maybe rewrite your code so it won't jam up your front end with functons like "getAllUsers" and even worse "getAllPosts" when taking it to scale.
